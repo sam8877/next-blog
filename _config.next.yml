@@ -42,6 +42,7 @@ creative_commons:
 menu:
   home: / || fa fa-bell
   archives: /archives/ || fa fa-archive
+  网站统计: https://us.umami.is/share/1q4yIRmiSUlLoVgj/sam8877.github.io || fa fa-chart-bar
 
 menu_settings:
   icons: true
@@ -202,6 +203,11 @@ comments:
 
 # google_analytics:
 #   tracking_id: G-43861RVV8R
+umami:
+  enable: true
+  script_url: https://cloud.umami.is/script.js
+  website_id: 39a0334d-7a85-4236-9fc6-4a61fa956079
+  host_url: https://cloud.umami.is
 
 
 # ============================================================= #

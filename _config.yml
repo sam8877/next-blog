@@ -37,7 +37,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -77,7 +77,14 @@ marked:
   # For preserve original quotes in code blocks.
   smartypants: false
   lazyload: true
+  prependRoot: true
+  postAsset: true
 
 search:
   path: search.json
   field: all
+
+deploy:
+  type: git
+  repo: https://github.com/sam8877/sam8877.github.io
+  branch: main
